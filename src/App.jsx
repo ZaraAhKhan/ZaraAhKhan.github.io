@@ -1,10 +1,10 @@
 import './App.css';
 import Navigation from './components/Navigation';
-
+ 
 function App() {
   return (
     <div>
-      <p>Hello World</p>
+      <h1 className='text-6xl'>Hello World</h1>
       <Navigation />
     </div>
   );
