@@ -4,7 +4,9 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <div>
-      <h1 className='text-6xl'>Hello World</h1>
+     <h1 className="text-red-200">
+      Hello world!
+    </h1>
       <Navigation />
     </div>
   );
