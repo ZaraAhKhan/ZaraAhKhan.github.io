@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BeakerIcon } from '@heroicons/react/solid'
 
 export default function Menu({ fixed }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ export default function Menu({ fixed }) {
                 >
                   Zara Ahmed Khan
                 </a>
+                <BeakerIcon className="h-5 w-5 text-blue-500"/>
                 <button
                   className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                   type="button"
